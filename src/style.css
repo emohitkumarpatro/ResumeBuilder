@@ -1,0 +1,42 @@
+.resume-builder {
+    text-align: center;
+  }
+  
+  .resume-builder h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .resume-builder h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .resume-builder button {
+    margin-right: 10px;
+  }
+  
+  .resume-builder .dragging {
+    opacity: 0.5;
+  }
+  
+  .resume-builder .dirty-button {
+    background-color: yellow;
+  }
+  
+  .resume-builder .section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .resume-builder .section:hover {
+    background-color: #f5f5f5;
+    cursor: move;
+  }
+  
+  .resume-builder .section:not(:last-child) {
+    margin-bottom: 10px;
+  }
+   
